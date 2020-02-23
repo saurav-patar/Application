@@ -6,6 +6,8 @@ pipeline {
         sh 'echo "testing Blue ocean"'
       }
     }
-
+    stage('well give it a try'){
+    sh 'echo "well let give a try"'
+    }
   }
 }
