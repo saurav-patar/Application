@@ -7,7 +7,9 @@ pipeline {
       }
     }
     stage('well give it a try'){
+      steps {
     sh 'echo "well let give a try"'
+      }
     }
   }
 }
