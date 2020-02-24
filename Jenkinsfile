@@ -17,7 +17,7 @@ pipeline {
 
         stage('clear blue') {
           steps {
-            mail(subject: 'build done', body: 'cool build', from: 'sauravpatar95@gmail.com', to: 'saurav@teqfocus.com')
+            sh 'let\'s enjoy'
           }
         }
 
